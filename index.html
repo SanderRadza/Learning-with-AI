@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me</title>
+    <style>
+    body {
+        font-family: Arial, sans-serif;
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 20px;
+        background-color: #ecf0f1;
+    }
+    
+    h1 {
+        color: #e74c3c;
+        border-bottom: 3px solid #3498db;
+        padding-bottom: 10px;
+        font-size: 48px;
+    }
+    
+    h2 {
+        color: #34495e;
+        margin-top: 30px;
+        border-bottom: 2px solid #34495e;
+    }
+    
+    a {
+        color: #3498db;
+        text-decoration: none;
+        transition: all 0.3s ease;
+    }
+    
+    a:hover {
+        text-decoration: underline;
+        color: #2980b9;
+    }
+
+    li {
+        margin-bottom: 10px;
+        line-height: 1.6;
+    }
+
+    p {
+        background-color: white;
+        padding: 30px;
+        border-left: 4px solid #3498db;
+        margin-bottom: 50px;
+    }
+
+    .intro {
+        background-color: #3498db;
+        color: white;
+        padding: 20px;
+        border-left: none;
+        border-radius: 8px;
+        font-size: 18px;
+    }
+
+    ul {
+        background-color: white;
+        padding: 20px 20px 20px 20px;
+        border-radius: 8px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+
+    ul li {
+        padding: 8px 0;
+        border-bottom: 1px solid #ecf0f1;
+    }
+
+    ul li:hover {
+        background-color: #f8f9fa;
+        padding-left: 10px;
+        transition: all 0.3s ease;
+    }
+
+    ul li:last-child {
+        border-bottom: none;
+    }
+
+    ol {
+        background-color: white;
+        padding: 20px 20px 20px 20px;
+        border-radius: 8px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+
+    ol li {
+        padding: 8px 0;
+        border-bottom: 1px solid #ecf0f1;
+    }
+
+    ol li:hover {
+        background-color: #f8f9fa;
+        padding-left: 10px;
+        transition: all 0.3s ease;
+    }
+
+    .profile-pic {
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        display: block;
+        margin: 20px auto;
+        border: 5px solid #3498db;
+        object-fit: cover;
+    }
+
+    .header-section {
+        text-align: center;
+        margin-bottom: 40px;
+    }
+    
+    .content-section {
+        animation: fadeIn 1s ease-in;
+    }
+
+    @keyframes fadeIn {
+        from {
+            opacity: 0;
+            transform: translateY(20px);
+        }
+
+        to {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+</style>
+</head>
+<body>
+    <div class="header-section">
+        <h1>About Me</h1>
+        <img src="/altumcode-PNbDkQ2DDgM-unsplash.jpg" alt="Profile Picture" class="profile-pic">
+        <p class="intro">Hi! My name is Sander Ratassepp</p>
+        <p class="intro">I want learn how to code and became Frontend developer</p>
+    </div>
+
+    <div class="content-section">
+        <h2>My interests</h2>
+        <ul>
+            <li>Learning to code</li>
+            <li>Walking outside</li>
+            <li>Watching movies</li>
+        </ul>
+
+        <h2>My favorite movies</h2>
+        <ol>
+            <li>Dumb & Dumber</li>
+            <li>The Mask</li>
+            <li>Spiderman</li>
+        </ol>
+
+        <h2>A Fun Fact</h2>
+        <p>Jim Carrey starred in both <strong>Dumb & Dumber</strong> and <strong>The Mask</strong> films</p>
+
+        <h2>Learn More</h2>
+        <p>Check out my favorite movies from IMDB websites: 
+            <a href="https://www.imdb.com/title/tt0109686/">Dumb & Dumber,</a>
+            <a href="https://www.imdb.com/title/tt0110475/">The Mask</a>
+        </p>
+    </div>
+</body>
+</html>
